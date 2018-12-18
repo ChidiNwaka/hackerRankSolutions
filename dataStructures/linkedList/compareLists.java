@@ -1,4 +1,14 @@
-static boolean compareLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
+	/*
+	 * For your reference:
+	 *
+	 * SinglyLinkedListNode {
+	 *     int data;
+	 *     SinglyLinkedListNode next;
+	 * }
+	 *
+	 */
+
+	static boolean compareLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
         
         if (head1 == null && head2 == null) return true;        
 
